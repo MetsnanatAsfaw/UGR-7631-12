@@ -7,7 +7,7 @@
 /* Styling the title */
 
 .title-home{
-  color: palevioletred;
+  color:blue;
   font-family: Arial, Helvetica,serif;
   font-style: italic;}
 
@@ -131,14 +131,14 @@ body {
    }
   
     
-   h1{color: gray; text-align: center; font-weight: bolder;}
+   h1{color: black; text-align: center; font-weight: bolder;}
    .heading{
      text-align: center;
      ;
      font-size: 20px;
      font-style: italic;
      font-family:'Times New Roman', Times, serif;
-     color:orange;
+     color:blue;
    margin-top: 25px;}
    
    .abb:hover{color: red;
@@ -156,7 +156,7 @@ body {
      .p-3{
       display: flex; 
       flex:block;
-      color:gold;
+      color:orange;
       font-weight: bolder;
       opacity:0.889;
       font-style: italic;
@@ -193,7 +193,7 @@ display: grid;   }
 
      .tab{
       display:grid;  
-     border: 1px solid whitesmoke;
+     border: 1px solid green;
      text-align: center;
   
      font-size:9px;
@@ -201,6 +201,7 @@ display: grid;   }
      font-weight: bolder;
      border-collapse: collapse;
      display: flex;
+     overflow: hidden;
      
      }
      
@@ -208,7 +209,7 @@ display: grid;   }
      color:red ;
    }  
    tr,td,a{
-     color: chocolate;
+     color: blue;
    }
 /* add grids */
 /* add grids */
@@ -272,7 +273,7 @@ padding-left:10%;
 .copyright{font-size:25px;
   font-style:italic;
   font-weight: bolder;
-  color:black;
+  color:white;
   text-align: center;}
   
 /**********CONTACT SECTION*********/  
@@ -299,7 +300,7 @@ padding-left:10%;
 
 
 
-.a-jump{color:palevioletred ;}
+
        
        
    
@@ -323,7 +324,7 @@ input[type=text], select, textarea {
  
 float: left;
 font-size:130%;
-color:black;
+color:hotpink;
 background-color: whitesmoke;
 box-sizing: border-box;
 border-radius: 35px;
@@ -345,18 +346,18 @@ float: right;
 }
 
 input[type=submit] {
-  background-color:cyan;  
+  background-color:pink;  
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
 }
 
 input[type=submit]:hover {
-  background-color:black;
+  background-color:hotpink;
 }
 .new,
 .pink{font-size: 80%;
-color: black;
+color: hotpink;
 font-weight: bold;
 font-family: serif;
 font-style: italic;}
@@ -393,7 +394,7 @@ font-weight: bolder;
 margin-top: 30px;
 display: grid;
 }
- .contact{color: black;
+ .contact{color: orangered;
 font-weight: bolder;
 font-style: oblique;
 font-size: x-large;
@@ -408,7 +409,7 @@ font-size: x-large;
  
     float: left;
     font-size:100%;
-    color:black;
+    color:blue;
     background-color: whitesmoke;
     border-style: groove;
     border-radius: 35px;
@@ -447,7 +448,7 @@ font-size: x-large;
 input[type=text], select, textarea {
   width: 100%;
   padding: 6px;
-  border: 2px solid hotpink;
+  border: 2px solid pink;
   margin-top:7px;
   margin-bottom: 16px;
   border-radius: 10px;
@@ -459,7 +460,7 @@ input[type=text], select, textarea {
 .one{float: right;
   
  font-size:150%;
- color:black;
+ color:green;
  background-color: cornsilk;
  box-sizing: border-box;
  border-radius: 30px;
@@ -491,7 +492,7 @@ span{
 input[type=text], select, textarea {
   width: 100%;
   padding: 6px;
-  border: 2px solid black;
+  border: 2px solid pink;
   margin-top:7px;
   margin-bottom: 16px;
   border-radius: 10px;
@@ -502,13 +503,13 @@ input[type=submit]:hover {
   background-color:hotpink;
 }
 .new{font-weight: bold;
-color:black;
+color: hotpink;
 padding-right: 40px;
 flex:2
 }
  
  input[type=submit] {
-   background-color:pink;  
+   background-color:hotpink;  
    padding: 12px 20px;
    border: none;
    border-radius: 4px;
@@ -568,14 +569,14 @@ gap: 4rem;}
 
 }
 .heading1{
-color: aquamarine;
+color: black;
 text-align: left;
 font-size: x-large;
 margin-top: 62px;
 margin-left: 85px;}
 .heading7{width: 50%;
   text-align: center;
-  color: firebrick;
+  color: red;
   text-align: center;
   font-size: x-large;
   margin-top: 62px;
@@ -597,14 +598,14 @@ border-radius: 10p;
 
  margin-top:20;
 }
-.span{color: crimson;
+.span{color: blue;
   font-style: italic;
   font-family: cursive;
   font-weight: bolder;
   display: block;
 }
 .add{
-  color:skyblue;
+  color:green;
   font-style: italic;
   font-family: cursive;
   font-weight: bold;
@@ -632,7 +633,7 @@ object-fit: cover;
     }
     .aport-row{display:flex;
       flex-wrap: wrap;
-      flex-direction: column;
+      
      
       
     
@@ -640,6 +641,7 @@ object-fit: cover;
     
     
     .aport1{flex: 1;
+      
     object-fit: cover;
       }
     .aport2{flex: 1;
@@ -675,21 +677,6 @@ object-fit: cover;
 .heading7{text-align:  center;
 margin-left: 209px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .story{display: flex;
       flex-wrap: wrap;
    flex-direction: column; 
@@ -704,7 +691,7 @@ grid: 20px;
   font-weight: lighter;
   font-style: italic;
   font-family: serif;
-  color: springgreen;
+  color: black;
   }
   .side{display: flex;
     flex-wrap: wrap;
