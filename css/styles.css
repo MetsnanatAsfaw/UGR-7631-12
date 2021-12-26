@@ -46,9 +46,9 @@ body {
   font-family:fantasy ;
   font-style: oblique;
   
-  color: black;
+  color: white;
   flex: 1;
-  background-color: rgb(95, 7, 51) ;
+  background-color: none;
 }
 
 .myh a:hover { background-color: cyan;
